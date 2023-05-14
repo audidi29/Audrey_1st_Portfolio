@@ -5,3 +5,4 @@ This project was my second challenge, for me as a new web developper. My goal wa
 
 Usage 
 
+![screenshot1](https://github.com/audidi29/Audrey_1st_Portfolio/assets/131299841/05390215-c92b-412e-922e-90cbc6c6848
