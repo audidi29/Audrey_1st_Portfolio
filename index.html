@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio </title>
+</head>
+<body>
+
+  <!--custom css-->
+  <link rel="stylesheet" href="./assets/style.css">
+  <!--header design-->
+  <header class="header"> 
+    <a href="#" class="logo"> Portfolio</a>
+
+    <nav class="navbar">
+      <a href="#about-me">About Me</a>
+      <a href="#my-work">My Work</a>
+      <a href="#contact-me">Contact Me</a>
+    </nav>
+  </header>
+        
+  <!--home section design-->
+
+  <section class="home">
+    <div class="home-content">
+      <h3>Hi,</h3>
+      <h1>I'm Audrey Kacoutie-Veh</h1>
+      <h3>Full Stack Web Developper & Freelance Web/Graphic Designer</h3>
+      <button type="button">About Me</button>
+    </div>
+  </section>
+
+  <!--section about design-->
+
+  <section class="about-me" id="about-me">
+    <div class="about-img">
+      <img src="./assets/about.png" style="border-radius: 50%;">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About Me</h2>
+      <p>I'm Audrey Kacoutie-Veh, passionate about design in general. I started to self-learned web desgin/graphic a couple years ago. I work as a freelancer web and graphic design since 2018. Earlier this year (2023), I decided to improve my skills by taking some web development classes. </p>
+
+    </div>
+  </section>
+
+  <!--section my work design-->
+
+      <div class="container">
+        <div class="my-work" id="my-work">
+         <h2>My Work</h2>
+       </div>
+      </div>
+     
+      <div class="image-title">
+        <h3>School Project 1 : Web Development</h4>
+        <p>This is my first school project.</p>
+      <div class="image-section">
+          <a href="https://audidi29.github.io/challenge_1_deploy/">
+           <img src="./assets/Screenshot.png" alt="screenshot image">
+          </a>
+      </div>
+
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img src="./assets/web dev pic.png" alt="image 1" style="width:60%"/>
+          <h4>Personal Project 1 : Website Design</h4>
+          <p>This website have been design for an NGO "Ivoire Alliance"</p>
+          <a href="https://ivoirealliance.org/" class="btn"> See More</a>
+        </div>
+        <div class="image-wrapper">
+          <img src="./assets/web design pic.png" alt="Avatar" style="width:60%">
+          <h4><b>Personal Project 2: Website Design</b></h4>
+          <p>This website have been design for an Airplane Maintenance Startup"</p>
+          <a href="https://ivoirealliance.org/" class="btn"> See More</a>
+        </div>
+        <div class="image-wrapper">
+         <img src="./assets/web design 2.png" alt="Avatar" style="width:60%">
+         <h4>Personal Project 3: My Digital Business Website</h4>
+         <p>This website show my services and another portfolio with some of my graphic design work</p>
+         <a href="https://digitalqueenagency.com/2097-2/" class="btn"> See More</a>
+       </div>
+    </div>
+  </section>
+
+
+      
+  <!--section contact me design--> 
+      
+    <div class="contact-me" id="contact-me">
+     <div class="container">
+      <h2 class="heading">Contact Me</h2>
+        <form action="action_page.php">
+      
+          <label for="fname"></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <a href="mailto:digitalqueeninfo@gmail.com"><input type="submit" value="Submit"></a>
+      
+        </form>
+      </div>
+
+      <footer>
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2023 Audrey KV Portfolio. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

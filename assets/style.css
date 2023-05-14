@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --main-color: #ff0000; 
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0 20px;
+}
+
+section {
+    min-height: 60vh;
+    padding: 8rem 8% 2rem;
+    margin-bottom: 50px;
+
+}
+
+.header {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    background-color: beige;
+
+
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 300;
+    margin-left: 4rem;
+    cursor: default
+}
+
+@media only screen and (max-width: 768px){
+    body {
+}
+    margin: 0;
+}
+
+.navbar a {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .2s;
+}
+
+.navbar a:hover {
+   color: var(--main-color);
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-content h3{
+    font-size: 3.5rem;
+    font-weight: 100;
+    font-family: sans-serif;
+
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 7px;
+    transition: .3s;
+    width: 10%;
+
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: black;
+    color: white; 
+    background-size: auto;
+}
+
+.about-img {
+    width: 40vw;
+    margin-left: -100px;
+}
+
+.heading {
+    text-align: left;
+    font-size: 40px;
+}
+
+.about-content h2 {
+    text-align: left;
+    font-size: 5.5rem;
+    line-height: 1.5;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+
+}
+
+.about-content p {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+
+.my-work{
+    padding: 15px;
+    align-items: center;
+    text-align: center; 
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 40px; 
+}
+
+.my-work h2 {
+    font-size: 5.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    width: 600px;
+    height: 500px;
+    margin: 20px;
+  }
+  
+  .image-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .image-section img{
+    border-radius: 40%;
+    box-shadow: #fff;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+  }
+
+  
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    display: inline;
+    border-radius: 12px;
+    transition: .2s;
+    width: 12%;
+    height: 12%;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: fit-content;
+  }
+  
+  .image-wrapper img{
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 40%;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    height: 100px;
+  }
+
+  .contact-me {
+    background-color: ;
+    padding: 159px;
+    margin-top: 10rem;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 657px;
+    color: black;
+    height: 52px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-media i {
+    margin-right: 10px;
+  }
+  
+  .social-media i:hover {
+    color: #555555;
+  }
