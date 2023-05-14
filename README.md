@@ -7,3 +7,5 @@ Usage
 
 ![alt text](./assets/screenshot1.png)
 
+Link to deploy 
+https://audidi29.github.io/Audrey_1st_Portfolio/
